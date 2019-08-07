@@ -1,4 +1,8 @@
-@import './variables';
+// Utils
+@import './utils/variables';
+
+// Components
+@import './components/homepage';
 
 html, body {
   font-size: 16px;
