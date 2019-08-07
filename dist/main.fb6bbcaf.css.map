@@ -1,1 +1,1 @@
-{"version":3,"sources":["styles/base.scss"],"names":[],"mappings":"AAAA","file":"main.fb6bbcaf.css","sourceRoot":"..","sourcesContent":[""]}
+{"version":3,"sources":["styles/base.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE","file":"main.fb6bbcaf.css","sourceRoot":"..","sourcesContent":["html, body {\n  font-size: 16px;\n  width: 100%;\n}\n\nbody {\n  margin: 0;\n  max-width: 100vw;\n  overflow-x: hidden;\n}\n\n*,:after,:before {\n  box-sizing: border-box\n}"]}
