@@ -1,0 +1,48 @@
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background: $black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    @extend %title;
+
+    color: $grey;
+    text-align: center;
+  }
+
+  &__subtitle {
+    @extend %subtitle;
+
+    color: $grey;
+    text-align: center;
+  }
+}
+
+
+// .hero {
+//   position: relative;
+//   height: 100vh;
+//   width: 100vw;
+//   background: $black;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+
+//   &__title {
+//     @extend %title;
+//   }
+
+//   &__subtitle {
+//     @extend %subtitle;
+//   }
+
+//   &__subtitle,
+//   &__title {
+//     text-align: center;
+//     color: $grey;
+//   }
+// }

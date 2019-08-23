@@ -1,0 +1,84 @@
+.color-samples {
+  position: relative;
+  margin: 50px;
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__swatch {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    border: #000 1px solid;
+    color: white;
+
+    &::after {
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    @each $name, $color in $colors {
+        &--#{$name} {
+          background: $color;
+        }
+        
+        &--#{$name}::after {
+          content: '#{$name} / and its value is #{$color}';
+        }
+    }
+  }
+}
+
+
+// .color-samples {
+//   position: relative;
+//   margin: 50px;
+
+//   &__list {
+//     padding: 0;
+//     margin: 0;
+//     width: 100%;
+//     list-style: none;
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//   }
+
+//   &__swatch {
+//     position: relative;
+//     width: 200px;
+//     height: 100px;
+//     border: #000 1px solid;
+//     color: white;
+
+//     &::after {
+//       position: absolute;
+//       text-align: center;
+//       top: 50%;
+//       left: 50%;
+//       transform: translate(-50%, -50%);
+//     }
+
+//     @each $value, $color in $colors {
+//       &--#{$value} {
+//         background: $color;
+//       }
+      
+//       &--#{$value}::after {
+//         content: '#{$value} #{$color}';
+//       }
+//     }
+//   }
+
+
+// }

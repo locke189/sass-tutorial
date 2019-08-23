@@ -1,0 +1,69 @@
+%title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 20px;
+  letter-spacing: 0.75;
+
+  @include breakpoint(md-and-up) {
+    font-size: 24px;
+    line-height: 22px;
+  }
+
+  @include breakpoint(lg-and-up) {
+    font-size: 44px;
+    line-height: 40px;
+  }
+}
+
+%subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.75px;
+  
+  @include breakpoint(lg-and-up) {
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+
+// %title {
+//   font-family: 'Oswald', sans-serif;
+//   font-weight: 700;
+//   font-size: 22px;
+//   line-height: 20px;
+//   letter-spacing: 0.75;
+
+//   @include breakpoint(lg-and-up) {
+//     font-size: 44px;
+//     line-height: 40px;
+//   }
+// }
+
+// %subtitle {
+//   font-family: 'Oswald', sans-serif;
+//   font-weight: 300;
+//   font-size: 18px;
+//   line-height: 18px;
+//   letter-spacing: 0.75px;
+
+//   @include breakpoint(lg-and-up) {
+//     font-size: 22px;
+//     line-height: 22px;
+//   }
+// }
+
+// %content {
+//   font-family: 'Open Sans', sans-serif;
+//   font-weight: 300;
+//   font-size: 12px;
+//   line-height: 12px;
+//   letter-spacing: 0.75px;
+
+//   @include breakpoint(lg-and-up) {
+//     font-size: 16px;
+//     line-height: 16px;
+//   }
+// }
