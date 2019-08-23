@@ -5,7 +5,7 @@
 // Colors
 $grey: #666;
 $greyish: #333;
-$greyish: #111;
+$greyest: #111;
 $black: #000;
 $white: #FFF;
 $default: #33b5e5;
@@ -16,3 +16,20 @@ $warning: #ffbb33;
 $warning-dark: #ff8800;
 $error: #ff4444;
 $error-dark: #CC0000;
+
+// color map
+$colors: (
+  'grey': $grey,
+  'greyish': $greyish,
+  'greyest': $greyest,
+  'black': $black,
+  'white': $white,
+  'default': $default,
+  'default-dark': $default-dark,
+  'success': $success,
+  'success-dark': $success-dark,
+  'warning': $warning,
+  'warning-dark': $warning-dark,
+  'error': $error,
+  'error-dark': $error-dark,
+);

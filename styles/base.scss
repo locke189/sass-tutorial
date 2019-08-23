@@ -1,8 +1,11 @@
 // Utils
 @import './utils/variables';
+@import './utils/breakpoints';
+@import './utils/typography';
 
 // Components
-@import './components/homepage';
+@import './components/hero';
+@import './components/colorSamples';
 
 html, body {
   font-size: 16px;
